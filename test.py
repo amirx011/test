@@ -1,15 +1,13 @@
-print('this is a test')
+print('----------this is a test----------')
 
+list1 = []
+for value in range (1,89):
+  list1.append(value)
+if sum(list1) == 230:
+  print(max(list1))
+else:
+  print(sum(list1))
 
-test_list = [0,0,1,2,3,5,8,13,21,34,55,89]
-print(sum(test_list))
-print(min(test_list))
-
-sum_test_list = 231
-if sum_test_list == 12:
-    print('jj')
-elif sum_test_list == 231 :
-    print('hh')
-    
-
-
+while sum(list1) == 3916 and max(list1) == 89 :
+  print('')
+  
