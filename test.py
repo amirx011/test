@@ -10,4 +10,11 @@ else:
 
 while sum(list1) == 3916 and max(list1) == 89 :
   print('')
-  
+
+
+print('----------this is a test----------')
+
+list_num = []
+for value in range (3 , 31 , 3):
+  list_num.append(value)
+print(list_num)
