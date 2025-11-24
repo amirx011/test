@@ -18,3 +18,22 @@ list_num = []
 for value in range (3 , 31 , 3):
   list_num.append(value)
 print(list_num)
+
+
+
+
+
+
+#-----------------------------------------------------------------------------------------#
+
+print("why me??" , sep= " ")
+
+
+name = input ('whats your name?')
+print(f"hello {name}")
+
+
+print('hello david\n' , end = ' ???\n') 
+
+
+
